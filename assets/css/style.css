@@ -55,7 +55,6 @@ nav a:hover {
 #banner {
     width: 100%;
     height: auto;
-    background-color: white;
 }
 
 #banner img {
@@ -65,7 +64,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
-    background-color: white;
+    background-color: rgb(245, 229, 214);
     border: 5px solid green;
     border-radius: 5px;
     color: darkred;
@@ -83,4 +82,13 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+#contact-icon{
+    width: 15px;
+}
+
+.location-list{
+    list-style: none;
+    padding-right: 10px;
 }
